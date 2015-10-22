@@ -4,3 +4,6 @@ Welcome,
 
 Positions:
   Mario N. - Research and Design Games genre and sports.
+  Brian A. - ???
+  Angel A. - Programming Datatbases and HTML files and keeping the team toguether.
+  Josue J. - ???
