@@ -1,5 +1,5 @@
 html{
-  background: cyan;
+  background: #282828;
   margin: 0;
 }
 body{
@@ -7,7 +7,7 @@ body{
 }
 #header{
   text-align: center;
-  box-shadow: .1px 3px #ffffff;
+  box-shadow: .1px 3px cyan;
   background: #282828;
 }
 #title{
