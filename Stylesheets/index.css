@@ -1,39 +1,147 @@
 html{
-  background: #282828;
-  margin: 0;
+    background: cyan;
+    margin: 0%;
 }
 body{
-  margin: 0%;
+    margin: 0%;
 }
 #header{
-  text-align: center;
-  box-shadow: .1px 3px cyan;
-  background: #282828;
+    text-align: center;
+    background: #282828;
+    box-shadow: 3px 3px 5px dimgray;
+    
+    margin-bottom: 0%;
 }
 #title{
-  font-size: 38px;
-  text-shadow: 2px 2px 1px darkgray;
-  font-family: 'Brush Script MT';
-  color: #FFF;
-  
-  margin: 0%;
+    font-size: 38px;
+    color: white;
+    text-shadow: 2px 2px 1px dimgray;
+    font-family: 'Brush Script MT', fantasy;
+    
+    margin: 0%;
+    
+    padding: 5px;
+    
+    float: top;
 }
-#mainNews{
-  height: 200px;
-  width: auto;
-  
-  margin: 10px;
-  border: 3px solid white;
-  border-radius: 5px;
-  
-  background: #fff;
-  
-  box-shadow: 3px 3px 5px lightgray;
+#genres{
+    background: #282828;
+    box-shadow: 3px 3px 5px dimgray;
+    
+    border: 3px solid #282828;
+    border-radius: 5px;
+    
+    margin-top: 1px;
+    
+    display: inline-block;
+    text-align: center;
+    
+    padding: 5px;
+    
+    float: left;
 }
-#mnDes{
-  text-align: center;
+.genres{
+    font-family: fantasy;
+    
+    color: white;
 }
-#mnImg{
-  height: 100px;
+#whatsHot{
+    text-align: center;
+    width: 98%;
+    
+    background: #282828;
+    
+    border: 3px solid #282828;
+    border-radius: 5px;
+    
+    box-shadow: 3px 0px 3px dimgray;
+    
+    margin-top: 5px;
+    margin-right: 1%;
+    
+    margin-bottom: 0%;
+}
+#whatsHotBody{
+    height: 205px;
+    width:98%;
+    background: #282828;
+    
+    border: 3px solid #282828;
+    border-radius: 5px;
+    
+    box-shadow: 3px 0px 3px dimgray;
+    
+    margin-top: 5px;
+}
+#whatsHotIMG{
+    border: 10px white;
+    border-radius: 5px;
+    
+    width: 200px;
+    height: 200px;
+    
+    margin-top: 2.5px;
+    
+    float: left;
+}
+#whatsHotDesc{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 66%;
+    
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+}
+#whatsHotDescBody{
+    float: left;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 66%;
+    
+    color: white;
+    font-family: cursive;
+    font-size: 15px;
+}
+#ads{
+    height: 700px;
+    width: 19%;
+    
+    float: right;
+    
+    border: 3px solid #282828;
+    border-radius: 5px;
+    background: #282828;
+    
+    margin-top: 20px;
+}
+#recentUpdatesTitle{
+    float: right;
+    width: 80%;
+    
+    text-align: center;
+    margin-right: 4px;
+    margin-top: 20px;
+    background: #282828;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    box-shadow: 3px 0px 3px dimgray;
+    
+    font-family: fantasy;
+    color: white;
+}
+#recentUpdatesBody{
+    float: right;
+    width: 80%;
+    height: 700px;
+    
+    margin-right: 4px;
+    background: #282828;
+    border: 1px solid #282828;
+    border-radius: 5px;
+    box-shadow: 3px 0px 3px dimgray;
+}
   width: 100px;
 }
